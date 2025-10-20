@@ -9,7 +9,7 @@ router = Router()
 async def start_command(message: Message):
     keyboard = InlineKeyboardMarkup(
         inline_keyboard=[
-            [InlineKeyboardButton(text="Перейти список дел", url="http://192.168.1.115:8080")]
+            [InlineKeyboardButton(text="Перейти в список дел", url="http://192.168.1.115:8080")]
         ]
     )
     
